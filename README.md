@@ -27,6 +27,7 @@ python3 -m minisb check --faults all --output results/checkpoint-1/checks.jsonl
 
 - [Описание проекта](nis/project.md)
 - [План эксперимента](nis/experiment-plan.md)
+- [Контрольная точка 1](nis/checkpoints/01.md)
 - Код: [minisb/](minisb/). Тесты лежат в [probes.py](minisb/probes.py), замедления в [faults.py](minisb/faults.py), алгоритмы из статьи в [validator.py](minisb/validator.py) и [selector.py](minisb/selector.py)
 - Модульные тесты: [tests/](tests/)
 - Результаты: [results/](results/)
